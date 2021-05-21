@@ -9,10 +9,12 @@ public class Application {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
-		System.out.println("from main");
-		System.out.println("HIS 134");
 		context.refresh();
 		context.close();
 	}
+        public void doProcess(){
+         //HIS 200
+         //LOGIC goes here ;
+}
 
 }
