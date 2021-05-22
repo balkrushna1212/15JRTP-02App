@@ -13,6 +13,8 @@ public class Application {
 		context.close();
 	}
         public void doProcess(){
+         int i=100;
+         System.out.println(i+"var added");
          //HIS 200
          //LOGIC goes here ;
 }
